@@ -4,9 +4,17 @@
         <servlet-name>InserirCLiente</servlet-name>
         <servlet-class>InserirCLiente</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>InserirProduto</servlet-name>
+        <servlet-class>InserirProduto</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>InserirCLiente</servlet-name>
         <url-pattern>/InserirCLiente</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InserirProduto</servlet-name>
+        <url-pattern>/InserirProduto</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

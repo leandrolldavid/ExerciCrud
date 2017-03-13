@@ -6,7 +6,8 @@
     <property name="hibernate.connection.driver_class">org.apache.derby.jdbc.ClientDriver</property>
     <property name="hibernate.connection.url">jdbc:derby://localhost:1527/sample</property>
     <property name="hibernate.connection.password">app</property>
-    <property name="hibernate.hbm2ddl.auto">create</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
     <mapping class="Cliente"/>
+    <mapping class="Produto"/>
   </session-factory>
 </hibernate-configuration>
